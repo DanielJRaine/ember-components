@@ -1,0 +1,11 @@
+{{outlet}}
+{{#link-to "index"}}
+    Home
+{{/link-to}}
+
+<div class="container">
+    <h2> Lists </h2>
+    {{#each model as |list|}}
+        {{listr-list list=list}}
+    {{/each}}
+</div>

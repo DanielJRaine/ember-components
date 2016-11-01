@@ -22,7 +22,7 @@
     "active-model-adapter": "^2.1.1",
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
-    "ember-cli": "2.8.0",
+    "ember-cli": "^2.10.0-beta.1",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-autoprefixer": "^0.6.0",
     "ember-cli-babel": "^5.1.6",
@@ -50,5 +50,8 @@
     "load-grunt-config": "^0.19.2",
     "loader.js": "^4.0.1",
     "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "sass-lint": "^1.9.1"
   }
 }
